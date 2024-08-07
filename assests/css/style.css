@@ -1,0 +1,155 @@
+
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+  }
+
+footer
+{
+    background-color: #2C3E50;
+}
+legend
+{
+    background-color: #2C3E50;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.legend
+{
+ font-family: 'Caveat',cursive;   
+}
+
+.leds
+{
+  border-left: 5px  dotted white;
+}
+.h1{
+  font-family: 'Berlin Sans FB Demi', sans-serif;                                            
+}
+
+.liens
+{
+    font-size: 20px;
+    padding-right: 230px;
+}
+
+.navbar-brand .brands
+{
+  
+    font-size: 20px;
+    padding-left: 230px;
+}
+
+.bars 
+{
+    background-color: #2C3E50;
+}
+#flexing .h1
+{
+  text-align: center;
+}
+
+.social .svg
+{
+  width: 40px;
+  height: 40px ;
+}
+.jumbo-1
+{
+    margin: 0;
+    height: 550px;
+    background-color: #1ABC9C;
+}
+.jumbo-2
+{
+  height: 350px;
+
+}
+
+.btn[type="submit"]
+{
+  background-color: #1ABC9C;
+}
+
+
+.my-image {
+  width: 300px;
+  height: 300px
+border:1px;
+border-radius: 100px 5%;
+}
+
+
+.divider-custom {
+    margin: 1.25rem 0 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .divider-custom .divider-custom-line {
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: #2c3e50;
+    border-radius: 1rem;
+    border-color: #2c3e50;
+    margin: 0;
+  }
+  .divider-custom .divider-custom-line:first-child {
+    margin-right: 1rem;
+  }
+  .divider-custom .divider-custom-line:last-child {
+    margin-left: 1rem;
+  }
+  .divider-custom .divider-custom-icon {
+    color: #2c3e50;
+    font-size: 2rem;
+  }
+  .divider-custom.divider-light .divider-custom-line {
+    background-color: white;
+  }
+  .divider-custom.divider-light .divider-custom-icon {
+    color: white;
+  }
+  .divider-custom.divider-black .divider-custom-line {
+    background-color: black;
+  }
+  .divider-custom.divider-black .divider-custom-icon {
+    color: black;
+  }
+  
+
+@media (max-width: 770px) {
+  .navbar-brand .brands
+  {
+      padding-left: 0;
+  
+  }
+  .navbar-collapse .liens
+  {
+    padding-right: 0;
+  }
+  
+}
+
+@media (max-width: 766px) {
+  .section .jumbo-2
+  {
+    height: 410px;
+  }
+  .carousel 
+  {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .leds
+  {
+    border-left: 0;
+    border-top: 5px  dotted white;
+  }
+ 
+}
+.carousel .carousel-indicators li {  background-color: gray; }
