@@ -67,7 +67,7 @@ function emailSend3() {
 }
 function emailSend1() {
 
-    let email =document.getElementById('email3').value;
+    let email =document.getElementById('email1').value;
     if (email.match(/^[A-Za-z\._\-0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
         
         let parms ={
@@ -78,7 +78,7 @@ function emailSend1() {
             country : document.getElementById('country1').value,
    
        }
-       emailjs.send("service_msqafz7","template_va8cz0w",parms1);
+       emailjs.send("service_msqafz7","template_va8cz0w",parms);
        alertSuccess();
        
 
